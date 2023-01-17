@@ -1,0 +1,1 @@
+var spicetifyDantisocial=(()=>{var t=async function(){for(;!Spicetify.showNotification;)await new Promise(t=>setTimeout(t,100));document.body.textContent="WTF ITF BROK"};(async()=>{await t()})()})();
