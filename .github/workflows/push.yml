@@ -14,14 +14,18 @@ jobs:
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v2.4.0
-      - name: Use Node.js
-        uses: actions/setup-node@v2.5.1
+      - uses: pnpm/action-setup@v2
         with:
-          node-version: 16.x
+          version: 7
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'pnpm'
       - name: yarn install and build
         run: |
-          yarn
-          yarn build:local
+          pnpm i
+          pnpm run build:local
       - name: Push new version
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
