@@ -1,7 +1,6 @@
 {
-    "name": "Spicetify-Antisocial",
+    "name": "Always Private Session (Antisocial mode)",
     "description": "Always start a Private session",
     "main": "dist/spicetify-antisocial.js",
     "readme": "README.md"
 }
-

@@ -73,7 +73,7 @@ async function main() {
     Platform = Spicetify.Platform;
   }
 
-  let isEnabled = getLocalStorageDataFromKey(SETTINGS_KEY, true);
+  let isEnabled = getLocalStorageDataFromKey(SETTINGS_KEY, false);
 
   // Add menu item and menu click handler
   new Menu.SubMenu(t("menuTitle"), [
