@@ -2,7 +2,7 @@
 
 Always enable Private Session by emulating menu clicks on startup.
 
-![demo.gif](demo.gif)
+![demo](demo.webp)
 
 # Installation
 
