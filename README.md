@@ -1,6 +1,8 @@
 # Spicetify Antisocial
 
-Always enable Private Session.
+Always enable Private Session by emulating menu clicks on startup.
+
+![demo.gif](demo.gif)
 
 # Installation
 
